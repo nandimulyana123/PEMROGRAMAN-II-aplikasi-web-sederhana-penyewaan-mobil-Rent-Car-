@@ -1,1 +1,0 @@
-<form action='CustomerServlet' method='post'>Form Customer</form>
