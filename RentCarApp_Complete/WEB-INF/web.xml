@@ -1,0 +1,27 @@
+
+<web-app>
+  <servlet>
+    <servlet-name>MobilServlet</servlet-name>
+    <servlet-class>controller.MobilServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MobilServlet</servlet-name>
+    <url-pattern>/MobilServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CustomerServlet</servlet-name>
+    <servlet-class>controller.CustomerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerServlet</servlet-name>
+    <url-pattern>/CustomerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TransaksiServlet</servlet-name>
+    <servlet-class>controller.TransaksiServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TransaksiServlet</servlet-name>
+    <url-pattern>/TransaksiServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
